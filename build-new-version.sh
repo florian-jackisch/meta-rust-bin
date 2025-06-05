@@ -23,27 +23,11 @@ TMPDIR=`mktemp -p "$PWD" -d`
 cd "$TMPDIR"
 
 TARGET_TRIPLES=(
-    aarch64-unknown-linux-gnu
-    aarch64-unknown-linux-musl
-    arm-unknown-linux-gnueabi
-    arm-unknown-linux-gnueabihf
-    armv5te-unknown-linux-gnueabi
-    armv5te-unknown-linux-musleabi
-    armv7-unknown-linux-gnueabihf
-    armv7-unknown-linux-musleabihf
-    i686-unknown-linux-gnu
-    powerpc-unknown-linux-gnu
+    i586-unknown-linux-gnu
     x86_64-unknown-linux-gnu
-    riscv64gc-unknown-linux-gnu
-    thumbv7neon-unknown-linux-gnueabihf
 )
 
 RUSTC_TRIPLES=(
-    aarch64-unknown-linux-gnu
-    arm-unknown-linux-gnueabi
-    arm-unknown-linux-gnueabihf
-    armv7-unknown-linux-gnueabihf
-    i686-unknown-linux-gnu
     x86_64-unknown-linux-gnu
 )
 
