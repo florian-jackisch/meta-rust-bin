@@ -45,7 +45,7 @@ def rust_target(d, spec_type):
         bb.fatal("Unsupported OS: %s. Only Linux is supported." % os)
 
     if arch in ["i386", "i486", "i586", "i686", "i786", "x86"]:
-        arch = "i686"
+        arch = "i586"
     elif arch in ["x86_64", "x86-64", "x64", "amd64"]:
         arch = "x86_64"
     elif arch in ["xscale", "arm", "armv6l", "armv7l"]:
